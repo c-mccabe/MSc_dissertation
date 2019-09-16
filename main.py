@@ -97,12 +97,13 @@ BO =  methods.BayesianOptimization(f = f,  # Objective function
                                    num_cores = num_cores
                                   )
 
-for i in range(100):
+for i in range(10):
     
     # This loops iterates the Bayesian optimisation. It saves a report every
-    # 50 iterations.
+    # 10 iterations which will contain the optimal paramaters and the accuracy
+    # achieved using those hyperparameters.
     
-    max_iter = 50
+    max_iter = 10
                                             
     BO.run_optimization(max_iter)
     BO.save_report('reports/2saved_report_step_%d'%i)
