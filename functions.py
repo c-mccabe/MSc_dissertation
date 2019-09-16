@@ -43,10 +43,8 @@ def LabelPowerset_Extra_predict(n_estimators, n_jobs, max_depth, min_samples_spl
     )
 
     classifier.fit(X_train, y_train)
-    
-    print('starting prediction')
     predictions = classifier.predict(X_test)
-    print('done')
+
     return(predictions)
 
 
@@ -79,9 +77,7 @@ def LabelPowerset_RF_predict(n_estimators, n_jobs, max_depth, min_samples_split,
 
     classifier.fit(X_train, y_train)
     
-    print('starting prediction')
     predictions = classifier.predict(X_test)
-    print('done')
     return(predictions)
 
 
