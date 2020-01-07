@@ -23,7 +23,7 @@ of the order of minutes when trained on large clusters compared to hours for
 even simple XGBoost and shallow Neural Network models. Classification accuracy
 was also far higher in the tree-based models.
 
-The final model consisted of three Random Forest and Four Extremely Random Trees
+The final model consisted of three Random Forest and four Extremely Random Trees
 models, stacked using majority voting. Hyperparameters for these seven models were
 tuned using Bayesian Optimisation.
 
