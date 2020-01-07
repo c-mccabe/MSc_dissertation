@@ -2,10 +2,11 @@
 ## Automatic Patent Searching via Extreme Multi-Label Classification
 
 My Oxford MSc thesis aimed to reduce the workload of patent attorneys
-interested in ascertaining the patentability of a new drug. I attempted
-to do this by building a classification model which when given a compound
-of interest as its input would output the US drug patents most likely
-to cover it.
+interested in ascertaining the patentability of a new drug. This was identified
+as a key bottleneck to drug discovery by Exscientia, the drug discovery
+firm who co-supervised the project. I attempted to do this by building a
+classification model which when given a compound of interest as its input would 
+output the US drug patents most likely to cover it.
 
 The data used in the project were extracted from US drug patents by NextMove
 and are publicly available. Rather than using ALL US drug patents, 10% of the
